@@ -25,6 +25,4 @@ public class JuiceController {
     public List<Juice> getJuicesByFruit(@PathVariable String fruit) {
         return juiceService.getJuiceByFruit(fruit);
     }
-    
-    
 }
